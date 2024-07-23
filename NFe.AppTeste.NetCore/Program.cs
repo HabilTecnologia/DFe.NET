@@ -1033,8 +1033,8 @@ namespace NFe.AppTeste.NetCore
                 {
                     detPag = new List<detPag>
                     {
-                        new detPag {tPag = FormaPagamento.fpCreditoLoja, vPag = valorPagto},
-                        new detPag {tPag = FormaPagamento.fpCreditoLoja, vPag = icmsTot.vNF - valorPagto}
+                        new detPag {tPag = FormaPagamento.fpDinheiro, vPag = valorPagto},
+                        new detPag {tPag = FormaPagamento.fpDinheiro, vPag = icmsTot.vNF - valorPagto}
                     }
                 }
             };
